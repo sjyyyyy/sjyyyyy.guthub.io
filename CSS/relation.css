@@ -1,0 +1,443 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+div,nav,head,body,h4,table,input,h5{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -0.04em;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Raleway", Sans-serif;
+    color: #4A4A4A;
+}
+
+h1{
+    line-height: 20px;
+    font-size: 30px;
+}
+
+h3{
+    margin: 5px 0 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #B1B1B1;
+    font-family: "Lora";
+    font-style: italic;
+}
+
+h5{
+    font-size: 16px;
+    margin-top: 2px;
+    text-align: left;
+}
+
+div.container{
+    width:850px;
+    margin: auto;
+}
+
+div.m1{
+    width: 580px;
+}
+div.navi{
+    width: 250px;
+    float: right;
+}
+
+div.navi h1{
+    background-color: #2B2B2B;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    font-size: 14px;
+    padding: 10px 0;
+    margin: 0 0 25px;
+}
+
+div.navi h4{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    font-style: normal;
+    color: #4A4A4A;
+    margin-top: 20px;
+}
+
+div.navi .navi-1,.navi-2,.navi-3 {
+    padding-bottom: 20px;
+}
+
+div.navi .navi-1 .aboutme-text {
+    text-align: center;
+}
+
+div.navi .navi-1 .aboutme-text img{
+    width: 50%;
+}
+
+div.navi .navi-1 .aboutme-text p{
+    text-align: left;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+div.navi-2 div.quickaccess-text div.quickaccess {
+    display: table;
+    margin: 0 0 20px 0;
+    border-bottom: 3px solid #E4E4E4;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+div.navi-2 div.quickaccess-text div.quickaccess div.qa-image {
+    float: left;
+    margin-right: 10px;
+}
+
+div.navi-2 div.quickaccess-text div.quickaccess div.qa-image img{
+    width: 80px;
+    height: 60px;
+}
+
+div.navi-2 div.quickaccess-text div.quickaccess div.qa-text{
+    float: left;
+    width: 60%;
+}
+
+div.navi-2 div.quickaccess-text div.quickaccess div.qa-text a{
+    color: #4A4A4A;
+}
+
+div.navi-3 div.contact-text div.contact{
+    display: table;
+    margin: 0 0 20px 0;
+    padding-bottom: 6px;
+    width: 100%;
+}
+
+div.navi-3 div.contact-text div.contact div.ct-image {
+    float: left;
+    margin-right: 20px;
+}
+
+div.navi-3 div.contact-text div.contact div.ct-image img{
+    width: 30px;
+    height: 30px;
+}
+
+div.navi-3 div.contact-text div.contact div.ct-text{
+    float: left;
+}
+
+div.navi-3 div.contact-text div.contact div.ct-text h4{
+    margin: 3px;
+}
+
+div.naver{
+    background-color: #222;
+    width: 100%;
+    height: 50px;
+    top: 0;
+}
+
+ul.naver-left{
+    float: left;
+}
+
+ul.naver-left li.nav-left-li{
+    float: left;
+    list-style: none;
+}
+
+ul.naver-left li.nav-left-li a{
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-family: "Open Sans", Sans-serif;
+}
+
+
+ul.naver-right{
+    float: right;
+    width: 145px;
+    background-color: rgb(100, 99, 99);
+    padding: 0;
+    padding-top: 5px;
+    border-radius: 8px;
+}
+
+ul.naver-right li a{
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+div.mainbody {
+    height: 1200px;
+}
+
+div.mainbody table.question-wrapper tr.q1{
+    margin-top: 40px;
+}
+
+table.question-wrapper{
+    width: 550px;
+    margin-top: 5px;
+    border: 2px solid #CECECE;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+.question-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+td.questiontext{
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #e7e3e3;
+    text-align: left;
+    padding: 7px 11px;
+}
+
+td.questionanswer{
+    text-align: left;
+    display: block;
+}
+
+div.mainbody div.contact {
+    margin-top: 30px;
+}
+
+div.mainbody h2 {
+    font-size: 30px;
+    color: rgb(109, 105, 105);
+}
+
+div.mainbody h4 {
+    font-size: 20px;
+}
+
+
+div.mainbody form.rect div.input-box {
+    margin-top: 5px;
+    border: 2px solid #CECECE;
+    border-radius: 10px;
+    height: 60px;
+    width: 260px;
+    float: left;
+    margin-right: 20px;
+}
+
+div.mainbody form.rect div.input-box div.questiontext {
+    margin: 1px;
+    border-radius: 1px;
+    background-color: #e7e3e3;
+    margin-bottom: 5px;
+}
+
+
+div.mainbody form.rect div.input-box-l {
+    margin-top: 5px;
+    border: 2px solid #CECECE;
+    border-radius: 10px;
+    height: 60px;
+    width: 545px;
+    float: left;
+    margin-right: 20px;
+}
+
+div.mainbody form.rect div.input-box-l div.questiontext {
+    margin: 1px;
+    border-radius: 1px;
+    background-color: #e7e3e3;
+    margin-bottom: 5px;
+}
+
+div.mainbody form.rect div.input-box-l input{
+    height: 30px;
+    width: 504px;
+    border: none;
+    font-size: 16px;
+    background-color: #f8f4f4;
+    border-radius: 6px;
+    padding: 0 20px;
+}
+
+div.mainbody form.rect div.message-box {
+    height: 130px;
+    width: 300px;
+    margin: 7px 0;    
+}
+
+div.mainbody form.rect div.input-box input {
+    height: 30px;
+    width: 218px;
+    border: none;
+    font-size: 16px;
+    background-color: #f8f4f4;
+    border-radius: 6px;
+    padding: 0 20px;
+}
+
+div.mainbody form.rect label.switch{
+    position: relative;
+    cursor: pointer;
+}
+
+div.mainbody form.rect label.switch input {
+    display: none;
+}
+
+div#c1{
+    height: 233px;
+}
+div.contact {
+    margin-top: 30px;
+}
+
+div.mainbody form.rect div.message-box textarea {
+    height: 100px;
+    width: 504px;
+    font-size: 16px;
+    background-color: #f8f4f4;
+    border-radius: 6px;
+    padding: 0 20px;
+    border: 2px solid #CECECE;
+    border-radius: 10px;
+}
+
+div.mainbody form.rect label.switch::before{
+    position:absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    display: block;
+    width: 60px;
+    height: 32px;
+    background-color: #E4E4E4;
+    border-radius: 16px;
+}
+
+div.mainbody form.rect label.switch input + .line::before,
+div.mainbody form.rect label.switch input + .line::after {
+    position: absolute;
+
+    top: 14px;
+  
+    content: '';
+    width: 24px;
+    height: 4px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+div.mainbody form.rect label.switch input + .line::before {
+    left: 4px;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+div.mainbody form.rect label.switch input + .line::after {
+    left: 32px;
+    transform: scaleX(1);
+    transform-origin: right;
+}
+
+div.mainbody form.rect label.switch input:checked + .line::before {
+    transform: scaleX(1);
+}
+div.mainbody form.rect label.switch input:checked + .line::after {
+    transform: scaleX(0);
+}
+
+div.mainbody form.rect label.switch input + .line span::before{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 4px #333;
+    background-color: #fff;
+    transition: 0.3s;
+} 
+
+div.mainbody form.rect label.switch input:checked + .line span::before{
+    box-shadow: inset 0 0 0 4px rgb(151, 121, 121);
+    left: 32px;
+} 
+
+div.mainbody form.rect label.switch input + .line span{
+    line-height: 32px;
+    padding-left: 68px;
+    font-size: 20px;
+} 
+
+div.title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.blog p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #000;
+}
+
+div.footer{
+    margin-top: 30px;
+    height: 200px;
+    text-align: center;
+    background-color: #CECECE;
+    border-bottom: 4px solid rgb(99, 95, 95);
+}
+
+div.footer div.fo-1 {
+    padding: 20px;
+    padding-top: 60px;
+}
+
+div.footer div.fo-2 img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+div.footer div.fo-1 h3{
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333;
+    font-style: normal;
+}

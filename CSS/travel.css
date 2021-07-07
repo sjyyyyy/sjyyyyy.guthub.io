@@ -1,0 +1,164 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+div,nav,head,body,h4,img,p,table,tbody,h2{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1 {
+    letter-spacing: -0.04em;
+    font-weight: 800;
+    font-style: normal;
+    font-family: "Raleway", Sans-serif;
+    color: #0a0a0a;
+    margin: 0;
+    font-size: 60px;
+}
+
+div.container{
+    width: 1000px;
+    margin: auto;
+}
+
+div.naver{
+    background-color: #222;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+ul.naver-left{
+    float: left;
+    display: inline;
+}
+
+ul.naver-left li.nav-left-li{
+    float: left;
+    list-style: none;
+}
+
+ul.naver-left li.nav-left-li a{
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-family: "Open Sans", Sans-serif;
+}
+
+
+ul.naver-right{
+    float: right;
+    width: 145px;
+    background-color: rgb(100, 99, 99);
+    padding: 0;
+    padding-top: 5px;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+ul.naver-right li a{
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+ul#right {
+    float: right;
+}
+ul#right li a{
+    font-size: 10px;
+    color: peachpuff;
+    padding: 10px 3px;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home-area, .nanjing-area, .wuhan-area, .jinan-area {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.home-area {
+    background: url(../img/hometown/3.jpg);
+}
+
+.nanjing-area {
+    background: url(../img/travel/nj.jpg);
+} 
+
+.wuhan-area {
+    background: url(../img/travel/yz.jpg);
+} 
+
+.jinan-area {
+    background: url(../img/travel/sz.jpg);
+}
+
+div.footer{
+    margin-top: 30px;
+    height: 200px;
+    text-align: center;
+    background-color: #CECECE;
+    border-bottom: 4px solid rgb(99, 95, 95);
+}
+
+div.footer div.fo-1 {
+    padding: 20px;
+    padding-top: 60px;
+}
+
+div.footer div.fo-2 img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+div.footer div.fo-1 h3{
+    font-size: 24px;
+    line-height: 30px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333;
+    font-style: normal;
+}
